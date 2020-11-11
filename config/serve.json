@@ -1,0 +1,62 @@
+{
+
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+
+  "port": 4321,
+
+  "https": true,
+
+  "serveConfigurations": {
+
+    "default": {
+
+      "pageUrl": "https://sharepoint29.sharepoint.com/sites/SalesPortal/SitePages/Home.aspx",
+
+      "customActions": {
+
+        "c20e744e-6f99-47cf-bfde-3a2240a98f8f": {
+
+          "location": "ClientSideExtension.ApplicationCustomizer",
+
+          "properties": {            
+
+            "Top": "This custom header has been developed by SPFx framework.",  
+
+            "Bottom": "This custom footer has been developed by SPFx framework." 
+
+          }
+
+        }
+
+      }
+
+    },
+
+    "headerAndFooterAppExtension": {
+
+      "pageUrl": "https://sharepoint29.sharepoint.com/sites/SalesPortal/SitePages/Home.aspx",
+
+      "customActions": {
+
+        "c20e744e-6f99-47cf-bfde-3a2240a98f8f": {
+
+          "location": "ClientSideExtension.ApplicationCustomizer",
+
+          "properties": {
+
+            "Top": "This custom header has been developed by SPFx framework.",  
+
+            "Bottom": "This custom footer has been developed by SPFx framework." 
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+

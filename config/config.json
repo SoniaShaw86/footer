@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "header-and-footer-app-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/headerAndFooterAppExtension/HeaderAndFooterAppExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/headerAndFooterAppExtension/HeaderAndFooterAppExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeaderAndFooterAppExtensionApplicationCustomizerStrings": "lib/extensions/headerAndFooterAppExtension/loc/{locale}.js"
+  }
+}
